@@ -18,6 +18,22 @@
       "headers": {
         "name1": "123"
       }
+    },
+    {
+      "route": "/profile2",
+      "methods": [
+        "put"
+      ],
+      "rewrite": "/item/123",
+      "redirect": "/new-url",
+      "statusCode": 301,
+      "allowedRoles": [
+        "admin",
+        "cons"
+      ],
+      "headers": {
+        "name2": "234"
+      }
     }
   ]
 }
