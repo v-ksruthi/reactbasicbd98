@@ -1,39 +1,5 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  },
-  "routes": [
-    {
-      "route": "/profile",
-      "methods": [
-        "post"
-      ],
-      "rewrite": "/item/123",
-      "redirect": "/new-url",
-      "statusCode": 300,
-      "allowedRoles": [
-        "admin",
-        "authed"
-      ],
-      "headers": {
-        "name1": "123"
-      }
-    },
-    {
-      "route": "/profile2",
-      "methods": [
-        "put"
-      ],
-      "rewrite": "/item/123",
-      "redirect": "/new-url",
-      "statusCode": 301,
-      "allowedRoles": [
-        "admin",
-        "cons"
-      ],
-      "headers": {
-        "name2": "234"
-      }
-    }
-  ]
+  }
 }
