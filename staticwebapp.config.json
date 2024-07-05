@@ -13,7 +13,7 @@
       "statusCode": 300,
       "allowedRoles": [
         "admin",
-        "authe"
+        "authed"
       ],
       "headers": {
         "name1": "123"
